@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodoo</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="./detail.js" defer></script>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <nav class="navbar">
+      <a href="/">
+        <h1 class="navbar__title">Foo<span>doo</span></h1>
+      </a>
+      <div class="navbar__search__container">
+        <input type="search" name="navbar__search__input" class="navbar__search__input" id="navbarSearch"
+          placeholder="Search...">
+        <span class="navbar__search__icon"></span>
+      </div>
+    </nav>
+
+    <h3 class="heading__medium" id="detailName">Name</h3>
+    <div class="detail__upper">
+      <div>
+        <img id="detailImg" src="./assets/gif/loading.gif" alt="">
+      </div>
+      <div>
+        <p id="detailAreaCategory">Area | Catogry</p>
+        <h3 class="heading__medium">Ingredient</h3>
+        <table id="detailIngredients">
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Ingredient</th>
+              <th>Measure</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <h3 class="heading__medium" id="detailTitle">Instructions</h3>
+    <p id="detailInstructions">Instructions</p>
+
+  </div>
+
+</body>
+
+</html>

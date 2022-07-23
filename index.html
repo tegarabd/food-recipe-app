@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodoo</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+
+    <nav class="navbar">
+      <a href="/">
+        <h1 class="navbar__title">Foo<span>doo</span></h1>
+      </a>
+      <div class="navbar__search__container">
+        <input type="search" name="navbar__search__input" class="navbar__search__input" id="searchInput"
+          placeholder="Search...">
+        <span class="navbar__search__icon"></span>
+      </div>
+    </nav>
+
+    <h3 class="heading__medium searchFood__title" id="searchFood__title">Result for ...</h3>
+    <div class="searchFood" id="searchFood">
+    </div>
+
+    <div class="featuredFood__header">
+      <h3 class="heading__medium">Featured Food</h3>
+      <button id="refreshBtn">Refresh</button>
+    </div>
+    <div class="featuredFood loading" id="featuredFood">
+      <img src="./assets/gif/loading.gif" alt="" width="150px" height="150px">
+    </div>
+
+    <h3 class="heading__medium">Your Favorite Food</h3>
+    <div class="favoriteFood" id="favoriteFood">
+      <img src="./assets/gif/loading.gif" alt="" width="150px" height="150px">
+    </div>
+
+
+
+  </div>
+</body>
+
+</html>
